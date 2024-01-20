@@ -17,7 +17,9 @@ public class Criteria_Restriction {
 		cfg.configure("hibernate-cfg.xml");
 		
 		SessionFactory  sf = cfg.buildSessionFactory();
+		System.out.println("session factory");
 		Session session = sf.openSession();
+		System.out.println("open session");
 				
 				//select * From Employee it is a criteria
 				//Criteria is used for select clause only when we give
