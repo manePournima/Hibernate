@@ -1,0 +1,7 @@
+<hibernate-mapping>
+<class name="com.tech.Employee" table="employee_hql">
+<id name="id" column="eid"/>
+<property name="name" column="ename"/>
+<property name="email" column="eemail"/>
+</class>
+</hibernate-mapping>
